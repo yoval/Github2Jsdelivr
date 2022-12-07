@@ -2,7 +2,7 @@
 
 # 说明
 
-将github链接转换为Jsdelivr加速
+将github链接转换为Jsdelivr加速，（已转换为exe格式 https://fuwenyue.lanzoue.com/izLdu0i2233e）
 
 将
 
