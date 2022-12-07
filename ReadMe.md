@@ -21,7 +21,7 @@ https://github.com/yoval/Qidiantu/blob/master/shouye_2022-4.json`
 
 `https://cdn.jsdelivr.net/gh/yoval/Qidiantu@master/shouye_2022-4.json`
 
-
+![](https://cdn.jsdelivr.net/gh/yoval/Github2Jsdelivr@master/imgs/jsdelivr.png)
 
 转exe格式
 
