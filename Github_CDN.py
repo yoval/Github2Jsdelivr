@@ -7,22 +7,30 @@ Created on Wed Dec  7 13:59:56 2022
 
 import PySimpleGUI as sg
 
-#githubusercontent
-def getCdnUrl(githuburl):
-    userName = githuburl.split('/')[-4]
-    repository = githuburl.split('/')[-3]
-    branche = githuburl.split('/')[-2]
-    filename = githuburl.split('/')[-1]
+#https://raw.githubusercontent.com/yoval/Qidiantu/master/shouye_2022-4.json
+def getCdnUrl(githuburl):    
+    userName = githuburl.split('/',6)[-4]
+    repository = githuburl.split('/',6)[-3]
+    branche = githuburl.split('/',6)[-2]
+    filename = githuburl.split('/',6)[-1]
     cdnUrl = 'https://cdn.jsdelivr.net/gh/%s/%s@%s/%s'%(userName,repository,branche,filename)
     return cdnUrl
-#github
+#https://github.com/yoval/Qidiantu/blob/master/shouye_2022-4.json
 def getCdnUrl2(githuburl):
-    userName = githuburl.split('/')[-5]
-    repository = githuburl.split('/')[-4]
-    branche = githuburl.split('/')[-2]
-    filename = githuburl.split('/')[-1]
+    userName = githuburl.split('/',7)[-5]
+    repository = githuburl.split('/',7)[-4]
+    branche = githuburl.split('/',7)[-2]
+    filename = githuburl.split('/',7)[-1]
     cdnUrl = 'https://cdn.jsdelivr.net/gh/%s/%s@%s/%s'%(userName,repository,branche,filename)
     return cdnUrl
+
+
+
+
+
+
+
+
 
 sg.theme('Green')   # 设置当前主题
 layout = [
